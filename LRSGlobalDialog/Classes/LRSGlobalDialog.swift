@@ -8,10 +8,10 @@
 import UIKit
 import ReactiveObjC
 
-@objc class LRSGlobalDialog: NSObject {
-	@objc static let `default` = LRSGlobalDialog()
+@objc public class LRSGlobalDialog: NSObject {
+	@objc public static let `default` = LRSGlobalDialog()
 	private var presentedAlert: Set = Set<Int>()
-	@objc func showAlertView(title: String?, code: Int, message: String?, confirmButtonTitle: String? = "知道了") {
+	@objc public func showAlertView(title: String?, code: Int, message: String?, confirmButtonTitle: String? = "知道了") {
 		guard presentedAlert.contains(code) == false else {
 			return
 		}
@@ -23,7 +23,7 @@ import ReactiveObjC
 		self.presentedAlert.insert(code)
 	}
 
-	@objc static func showAlertView(title: String?, code: Int, message: String?, confirmButtonTitle: String? = "知道了") {
+	@objc public static func showAlertView(title: String?, code: Int, message: String?, confirmButtonTitle: String? = "知道了") {
 		LRSGlobalDialog.default.showAlertView(title: title, code: code, message: message, confirmButtonTitle: confirmButtonTitle)
 	}
 }

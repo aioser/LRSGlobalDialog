@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		095D33D1E92B6390FC241AAD /* Pods-LRSGlobalDialog_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LRSGlobalDialog_Example.debug.xcconfig"; path = "Target Support Files/Pods-LRSGlobalDialog_Example/Pods-LRSGlobalDialog_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		0B658384CFBE473DC6D7C09E /* Pods_LRSGlobalDialog_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LRSGlobalDialog_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0E664E64F318A3E2A49CA419 /* LRSGlobalDialog.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LRSGlobalDialog.podspec; path = ../LRSGlobalDialog.podspec; sourceTree = "<group>"; };
+		0E664E64F318A3E2A49CA419 /* LRSGlobalDialog.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LRSGlobalDialog.podspec; path = ../LRSGlobalDialog.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* LRSGlobalDialog_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LRSGlobalDialog_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -27,8 +27,8 @@
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		861CD7C4597E081997FE3E23 /* Pods-LRSGlobalDialog_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LRSGlobalDialog_Example.release.xcconfig"; path = "Target Support Files/Pods-LRSGlobalDialog_Example/Pods-LRSGlobalDialog_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C91262E954E7D76C5B9FD8DD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		FF0B8B9D95EEDC2FF135D7B6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C91262E954E7D76C5B9FD8DD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		FF0B8B9D95EEDC2FF135D7B6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +49,6 @@
 				095D33D1E92B6390FC241AAD /* Pods-LRSGlobalDialog_Example.debug.xcconfig */,
 				861CD7C4597E081997FE3E23 /* Pods-LRSGlobalDialog_Example.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

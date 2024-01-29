@@ -1,0 +1,23 @@
+PODS:
+  - LRSGlobalDialog (0.1.0):
+    - ReactiveObjC
+  - ReactiveObjC (3.2.0)
+
+DEPENDENCIES:
+  - LRSGlobalDialog (from `../`)
+
+SPEC REPOS:
+  "git@coding.jiamiantech.com:ce/LRSDevRepo/LRSRepos.git":
+    - ReactiveObjC
+
+EXTERNAL SOURCES:
+  LRSGlobalDialog:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LRSGlobalDialog: 8b137d77b7d61de75bf7a4c90cab3715977a2cfa
+  ReactiveObjC: 0a9ce047d2d331f084de4a37fb737ae0f361adc3
+
+PODFILE CHECKSUM: 85db2edc97f9e7c189335add446191eee47c99ad
+
+COCOAPODS: 1.12.1

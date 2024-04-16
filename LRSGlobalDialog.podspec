@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'git@github.com:aioser/LRSGlobalDialog.git'
+  s.homepage         = 'git@github.com:singleton-altman/LRSGlobalDialog.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'junchen' => 'junchen.liu@jiamiantech.com' }
-  s.source           = { :git => 'git@github.com:aioser/LRSGlobalDialog.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:singleton-altman/LRSGlobalDialog.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '11.0'
